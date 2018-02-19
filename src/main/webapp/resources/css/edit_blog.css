@@ -1,0 +1,24 @@
+body {
+    background: #ccc;
+}
+h3 {
+    padding: 10px;
+}
+#blogtitle, #blogtag {
+    margin: 10px 35px 10px 35px;
+    width: 300px;
+    font-size: 16px;
+}
+#saveblog, #exit {
+    margin: 10px 20px 10px 20px;
+}
+#status {
+    color: green;
+    font-weight: bold;
+    font-size: 16px;
+}
+#editor {
+    width: 95%;
+    height: 360px;
+    margin: 0 auto;
+}

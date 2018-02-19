@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为IUserDao接口方法提供sql语句配置 -->
+<mapper namespace="ideablog.dao.IUserDao">
+    <select id="selectUserById" resultType="User" parameterType="long">
+        SELECT *
+        FROM user
+        WHERE id = #{id}
+    </select>
+    <select id="selectAllUsers" resultType="User">
+        SELECT *
+        FROM user
+    </select>
+    <select id="selectUserByEmail" resultType="User" parameterType="String">
+        SELECT *
+        FROM user
+        WHERE email = #{email}
+    </select>
+    <select id="selectUser" resultType="User">
+        SELECT *
+        FROM user
+        WHERE username = #{userName} AND password = #{password}
+    </select>
+    <insert id="insertUser">
+        INSERT
+        INTO user (username, password, email, regTime)
+        VALUES (#{userName}, #{password}, #{email}, #{regTime})
+    </insert>
+    <update id="updatePasswordByUserName">
+        UPDATE user
+        SET password = #{password}
+        WHERE username = #{userName}
+    </update>
+    <update id="updateInfoById">
+        UPDATE user
+        SET gender = #{gender}, age = #{age}, province = #{province}, city = #{city}, tel = #{tel}
+        WHERE id = #{id}
+    </update>
+    <update id="increaseFollowsById" parameterType="long">
+        UPDATE user
+        SET follows = follows+1
+        WHERE id = #{id}
+    </update>
+    <update id="decreaseFollowsById" parameterType="long">
+        UPDATE user
+        SET follows = follows-1
+        WHERE id = #{id}
+    </update>
+    <update id="switchStatusById">
+        UPDATE user
+        SET status = #{status}
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteUserById" parameterType="long">
+        DELETE
+        FROM user
+        WHERE id = #{id}
+    </delete>
+</mapper>

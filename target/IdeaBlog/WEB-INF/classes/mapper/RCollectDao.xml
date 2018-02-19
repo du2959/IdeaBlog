@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为IRCollectDao接口方法提供sql语句配置 -->
+<mapper namespace="ideablog.dao.IRCollectDao">
+    <select id="selectRCollect" resultType="RCollect">
+        SELECT *
+        FROM r_collect
+        WHERE blogId = #{blogId} AND userId = #{userId}
+    </select>
+    <insert id="insertRCollect">
+        INSERT
+        INTO r_collect (blogId, userId)
+        VALUES (#{blogId}, #{userId})
+    </insert>
+    <delete id="deleteRCollect">
+        DELETE
+        FROM r_collect
+        WHERE blogId = #{blogId} AND userId = #{userId}
+    </delete>
+</mapper>

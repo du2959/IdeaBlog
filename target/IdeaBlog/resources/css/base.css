@@ -1,0 +1,20 @@
+*,::before,::after{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	font-family: "微软雅黑","times new roman";
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+input{
+	border: none;
+}
+h3 {
+	padding: 10px;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为ICloudFileDao接口方法提供sql语句配置 -->
+<mapper namespace="ideablog.dao.ICloudFileDao">
+    <select id="selectCloudFileById" resultType="CloudFile" parameterType="long">
+        SELECT *
+        FROM cloudfile
+        WHERE id = #{id}
+    </select>
+    <select id="selectAllCloudFiles" resultType="CloudFile">
+        SELECT cloudfile.*, user.username
+        FROM cloudfile
+        INNER JOIN user
+        ON cloudfile.userId = user.id
+        WHERE cloudfile.status = 2
+        ORDER BY upTime DESC
+    </select>
+    <select id="selectCloudFilesByUserId" resultType="CloudFile" parameterType="long">
+        SELECT *
+        FROM cloudfile
+        WHERE userId = #{userId}
+        ORDER BY upTime DESC
+    </select>
+    <select id="selectFollowFilesByUserId" resultType="CloudFile" parameterType="long">
+        SELECT cloudfile.*, user.username
+        FROM cloudfile
+        INNER JOIN user
+        ON cloudfile.userId = user.id
+        WHERE cloudfile.status = 2 AND cloudfile.userId IN
+            (SELECT userId
+             FROM r_follow
+             WHERE followerId = #{followerId})
+        ORDER BY upTime DESC
+    </select>
+    <insert id="insertCloudFiles">
+        INSERT
+        INTO cloudfile (userId, fileName, fileSize, filePath, upTime)
+        VALUES (#{userId}, #{fileName}, #{fileSize}, #{filePath}, #{upTime})
+    </insert>
+    <update id="switchStatusById">
+        UPDATE cloudfile
+        SET status = #{status}
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteCloudFileById" parameterType="long">
+        DELETE
+        FROM cloudfile
+        WHERE id = #{id}
+    </delete>
+</mapper>

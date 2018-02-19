@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为ICommentDao接口方法提供sql语句配置 -->
+<mapper namespace="ideablog.dao.ICommentDao">
+    <select id="selectCommentsByBlogId" resultType="Comment" parameterType="long">
+        SELECT a.*, b.username AS username, c.username AS replyUsername
+        FROM comment a
+        LEFT JOIN user b
+        ON a.userId = b.id
+        LEFT JOIN user c
+        ON a.replyUserId = c.id
+        WHERE a.blogId = #{blogId}
+    </select>
+    <select id="selectCommentsByReplyUserId" resultType="Comment" parameterType="long">
+        SELECT comment.*, user.username AS username, blog.title AS blogTitle
+        FROM comment
+        LEFT JOIN user
+        ON comment.userId = user.id
+        LEFT JOIN blog
+        ON comment.blogId = blog.id
+        WHERE comment.type = 1
+              AND comment.blogId IN
+                (SELECT id
+                 FROM blog
+                 WHERE userId = #{replyUserId})
+        UNION
+        SELECT comment.*, user.username AS username, blog.title AS blogTitle
+        FROM comment
+        LEFT JOIN user
+        ON comment.userId = user.id
+        LEFT JOIN blog
+        ON comment.blogId = blog.id
+        WHERE comment.type = 2
+              AND comment.replyUserId = #{replyUserId}
+        ORDER BY postTime DESC
+    </select>
+    <insert id="insertComment">
+        INSERT
+        INTO comment (blogId, userId, content, type, replyUserId, postTime)
+        VALUES (#{blogId}, #{userId}, #{content}, #{type}, #{replyUserId}, #{postTime})
+    </insert>
+</mapper>

@@ -1,0 +1,131 @@
+body {
+    background: #ccc;
+}
+h3 {
+	margin-top: 5px;
+	background-color: #EBEBEB;
+}
+#wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+#top {
+	width: 100%;
+	height: 130px;
+}
+#topleft {
+	float: left;
+	width: 75%;
+}
+#topleft p {
+	padding-top: 5px;
+	padding-left: 5px;
+}
+#tag {
+    color: dodgerblue;
+}
+#topleft p input {
+	float: right;
+	margin-right: 5px;
+}
+#topright {
+	float: right;
+	width: 20%;
+	background-color: #EBEBEB;
+	margin-top: 20px;
+	margin-right: 10px;
+	padding: 10px;
+}
+#topright img {
+	float: left;
+	width: 30%;
+    border: 1px solid #007BFF;
+}
+#userinfo {
+	float: left;
+	width: 65%;
+}
+#userinfo p {
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	text-align: center;
+}
+#mainleft {
+	float: left;
+	width: 75%;
+}
+#content {
+	width: 98%;
+	margin: 0 5px 0 5px;
+	padding: 2px;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+#comm {
+	margin-top: 10px;
+	margin-left: 5px;
+}
+#comment {
+	width: 85%;
+	font-size: 16px;
+	border-radius: 5px;
+	padding: 5px;
+}
+#postcomment {
+	float: right;
+	margin-right: 5px;
+}
+h4 {
+	padding: 5px;
+}
+#comments {
+	margin-left: 5px;
+}
+#comments li {
+	width: 98%;
+	margin-top: 5px;
+	padding-left: 2px;
+	border-left: 2px solid #008B8B;
+	border-bottom: 1px dashed #fff;
+}
+#comments li a {
+	color: dodgerblue;
+	float: right;
+}
+.button {
+	color: #fff;
+    background-color: #2AABD2;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 4px 10px 4px 10px;
+}
+#status {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+#mainright {
+	float: right;
+	width: 20%;
+	background-color: #EBEBEB;
+	margin-right: 10px;
+	padding: 10px;
+}
+#mainright p {
+	border-bottom: 2px solid #008B8B;
+}
+#showmore {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    color: dodgerblue;
+    background-color: #ccc;
+    text-decoration: underline;
+}
+.blue {
+    color: dodgerblue;
+}
+.gray {
+    color: #888;
+}

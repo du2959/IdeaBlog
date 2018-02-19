@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为ILogDao接口方法提供sql语句配置 -->
+<mapper namespace="ideablog.dao.ILogDao">
+    <select id="selectAllLogs" resultType="Log">
+        SELECT log.*, user.username, user.role
+        FROM log
+        INNER JOIN user
+        ON log.userId = user.id
+        ORDER BY opTime DESC
+    </select>
+    <select id="selectLogsByUserId" resultType="Log" parameterType="long">
+        SELECT *
+        FROM log
+        WHERE userId = #{userId}
+        ORDER BY opTime DESC
+    </select>
+    <insert id="insertLog">
+        INSERT
+        INTO log (userId, method, description, reqIp, opTime)
+        VALUES (#{userId}, #{method}, #{description}, #{reqIp}, #{opTime})
+    </insert>
+    <delete id="deleteLogById" parameterType="long">
+        DELETE
+        FROM log
+        WHERE id = #{id}
+    </delete>
+</mapper>

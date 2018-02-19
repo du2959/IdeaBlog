@@ -1,0 +1,56 @@
+#weather,#blogsquare {
+	display: block;
+	float: left;
+	width: 98%;
+	padding-left: 10px;
+}
+#blogs_filter {
+	display: block;
+	float: left;
+	width: 98%;
+}
+#blogs_filter a {
+	float: left;
+	display: block;
+	width: 100px;
+	text-align: center;
+	padding: 5px;
+	color: #000;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#blogs_filter a:hover {
+	background-color: #eee;
+}
+#allblog ul {
+	display: block;
+	float: left;
+	width: 98%;
+	background-color: #eee;
+}
+#allblog li {
+	display: block;
+	float: left;
+	width: 98%;
+	margin-bottom: 5px;
+	padding-left: 2px;padding-top: 5px;
+	border-left: 2px solid #008B8B;
+    border-bottom: 1px dotted #666;
+}
+#allblog li a {
+    color: dodgerblue;
+	text-decoration: underline;
+}
+#showmore {
+    width: 98%;
+    text-align: center;
+    padding: 5px;
+    color: dodgerblue;
+    text-decoration: underline;
+}
+.blue {
+	color: dodgerblue;
+}
+.gray {
+	color: #888;
+}

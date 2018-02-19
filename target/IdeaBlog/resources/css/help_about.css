@@ -1,0 +1,37 @@
+#introduce {
+	width: 98%;
+	padding: 0 5px 0 10px;
+}
+#feedback {
+	text-align: center;
+}
+#feedback input#title,#feedback input#email {
+	width: 200px;
+}
+#feedback input#submit {
+	width: 100px;
+	color: #fff;
+	background-color: #2AABD2;
+}
+#feedback input#title,#feedback input#email,#feedback input#submit {
+	font-size: 16px;
+	margin: 10px 10px 10px 20px;
+	border-radius: 5px;
+	padding: 3px;
+}
+#feedback textarea#content {
+	width: 90%;
+	height: 200px;
+	font-size: 16px;
+}
+#copyright {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 10px;
+}
+#status {
+	color: green;
+	font-weight: bold;
+	text-align: center;
+}

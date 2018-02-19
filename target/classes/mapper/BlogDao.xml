@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 设置为IBlogDao接口方法提供sql语句配置 -->
+<mapper namespace="ideablog.dao.IBlogDao">
+    <select id="selectBlogById" resultType="Blog" parameterType="long">
+        SELECT blog.*, user.username
+        FROM blog
+        INNER JOIN user
+        ON blog.userId = user.id
+        WHERE blog.id = #{id}
+    </select>
+    <select id="selectPublicBlogById" resultType="Blog" parameterType="long">
+        SELECT *
+        FROM blog
+        WHERE id = #{id} AND status = 2
+    </select>
+    <select id="selectAllBlogs" resultType="Blog">
+        SELECT blog.*, user.username
+        FROM blog
+        INNER JOIN user
+        ON blog.userId = user.id
+        WHERE blog.status = 2
+        ORDER BY views DESC, editTime DESC, collects DESC
+    </select>
+    <select id="selectNewBlogs" resultType="Blog">
+        SELECT blog.*, user.username
+        FROM blog
+        INNER JOIN user
+        ON blog.userId = user.id
+        WHERE blog.status = 2
+        ORDER BY editTime DESC
+    </select>
+    <select id="selectNewBlogsByUserId" resultType="Blog" parameterType="long">
+        SELECT *
+        FROM blog
+        WHERE userId = #{userId}
+        ORDER BY editTime DESC
+    </select>
+    <select id="selectCollectBlogsByUserId" resultType="Blog" parameterType="long">
+        SELECT *
+        FROM blog
+        WHERE id IN
+            (SELECT blogId
+             FROM r_collect
+             WHERE userId = #{userId})
+        ORDER BY editTime DESC
+    </select>
+    <select id="selectFollowBlogsByUserId" resultType="Blog" parameterType="long">
+        SELECT blog.*, user.username
+        FROM blog
+        INNER JOIN user
+        ON blog.userId = user.id
+        WHERE blog.userId IN
+            (SELECT userId
+             FROM r_follow
+             WHERE followerId = #{followerId})
+        ORDER BY editTime DESC
+    </select>
+    <select id="selectHotBlogs" resultType="Blog">
+        SELECT blog.*, user.username
+        FROM blog
+        INNER JOIN user
+        ON blog.userId = user.id
+        WHERE blog.status = 2
+        ORDER BY collects DESC, editTime DESC
+    </select>
+    <insert id="insertBlog">
+        INSERT
+        INTO blog (userId, title, tag, content, editTime, status)
+        VALUES (#{userId}, #{title}, #{tag}, #{content}, #{editTime}, #{status})
+    </insert>
+    <update id="updateBlogById">
+        UPDATE blog
+        SET title = #{title}, tag = #{tag}, content = #{content}, editTime = #{editTime}
+        WHERE id = #{id}
+    </update>
+    <update id="switchStatusById">
+        UPDATE blog
+        SET status = #{status}
+        WHERE id = #{id}
+    </update>
+    <update id="increaseViewsById" parameterType="long">
+        UPDATE blog
+        SET views = views+1
+        WHERE id = #{id}
+    </update>
+    <update id="increaseCollectsById" parameterType="long">
+        UPDATE blog
+        SET collects = collects+1
+        WHERE id = #{id}
+    </update>
+    <update id="decreaseCollectsById" parameterType="long">
+        UPDATE blog
+        SET collects = collects-1
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteBlogById" parameterType="long">
+        DELETE
+        FROM blog
+        WHERE id = #{id}
+    </delete>
+</mapper>
