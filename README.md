@@ -1,0 +1,2 @@
+# IdeaBlog
+My graduation project.
