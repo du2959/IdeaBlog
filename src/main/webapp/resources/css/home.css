@@ -35,7 +35,6 @@ a:hover{
 }
 #navigation {
 	margin-top:0;
-	margin-right:-5px;
 	position:relative;
 	width:220px;
 }
@@ -43,7 +42,7 @@ a:hover{
 	border:none;
 	background:none;
 	margin:0;
-	padding:0
+	padding:0;
 }
 #navigation li a:link, #navigation li a:visited {
 	text-decoration:none;
@@ -57,7 +56,12 @@ a:hover{
 	-webkit-transition:all 200ms;
 	-moz-transition:all 200ms;
 	-o-transition:all 200ms;
-	padding:5px 10px 5px 0
+	padding:5px 10px 5px 0px;
+}
+#navigation li a img {
+    position: relative;
+    top: 3px;
+    right: 10px;
 }
 #navigation li a:hover, #navigation li a.active {
 	background:#1b1b1b;
@@ -88,8 +92,8 @@ a:hover{
 	border-left: 3px solid #999999;
 }
 #music {
-	float: left;
-	margin-left: 10px;
+	float: right;
+    margin-right: 5px;
 	margin-top: 5px;
 	height: 60px;
 }
@@ -105,12 +109,16 @@ a:hover{
 #headicon {
 	float: right;
 	display: block;
-	width: 40px;
+	width: 60px;
 	height: 50px;
 	margin-right: 10px;
 	margin-top: 10px;
 }
-#headicon img {
+#showinfo {
+    float: right;
+    margin-top: 10px;
+}
+#headiconimg {
 	float: right;
 	width: 40px;
 	height: 40px;
@@ -142,6 +150,11 @@ a:hover{
 }
 #personinfolist a:hover {
  	background-color: #1b1b1b;
+}
+.infolist {
+    position: relative;
+    top: 2px;
+    right: 5px;
 }
 #logout {
 	float: right;

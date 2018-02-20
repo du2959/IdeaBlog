@@ -15,15 +15,19 @@
 		<div id="statistics">
 			<div id="blogs">
 				<p>发布了</p><span id="blogCount">0</span><p>篇博客</p>
+                <img class="statisticsicon" src="resources/img/icons/image-text-64.svg">
 			</div>
 			<div id="files">
 				<p>上传了</p><span id="fileCount">0</span><p>个文件</p>
+                <img class="statisticsicon" src="resources/img/icons/upload-64.svg">
 			</div>
 			<div id="follows">
 				<p>关注了</p><span id="followCount">0</span><p>位用户</p>
+                <img class="statisticsicon" src="resources/img/icons/favorites-64.svg">
 			</div>
 			<div id="collects">
 				<p>收藏了</p><span id="collectCount">0</span><p>篇博客</p>
+                <img class="statisticsicon" src="resources/img/icons/favorite-64.svg">
 			</div>
 		</div>
 		<h3>近期通知</h3>

@@ -17,6 +17,7 @@ a {
 	border-radius: 5px;
 	margin: 3px;
 	padding: 5px;
+    position: relative;
 }
 #statistics div span {
 	font-size: 24px;
@@ -32,6 +33,12 @@ a {
 }
 #statistics div#collects {
 	background-color: darkcyan;
+}
+.statisticsicon {
+    position: absolute;
+	float: right;
+    top: 18px;
+    right: 40px;
 }
 #notice {
 	float: left;

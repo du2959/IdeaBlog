@@ -23,11 +23,11 @@
 		<h3>博客广场</h3>
 		<div id="blogsquare">
 			<div id="blogs_filter">
-				<a href="#" id="tabAll" class="selected">综合</a>
-				<a href="#" id="tabNew">最新</a>
-				<a href="#" id="tabHot">热门</a>
+				<a href="#" id="tabAll" class="selected"><img class="tabicon" src="resources/img/icons/ViewGallery.svg">综合</a>
+				<a href="#" id="tabNew"><img class="tabicon" src="resources/img/icons/clock.svg">最新</a>
+				<a href="#" id="tabHot"><img class="tabicon" src="resources/img/icons/hot.svg">热门</a>
 			</div>
-			<div id="allblog">
+			<div>
 				<ul id="bloglist"></ul>
                 <input type="button" id="showmore" value="" />
 			</div>

@@ -5,13 +5,13 @@ $(document).ready(function(){
             document.getElementById("headiconimg").src = headIconPath;
         }
         if(userRole == 2) {
-            document.getElementById("userrole").innerHTML = "系统管理与维护";
+            document.getElementById("userrole").innerHTML = "<img class='infolist' src='resources/img/icons/set.svg'>系统管理与维护";
             document.getElementById("userrole").href = "system.do";
         }
         else {
             document.getElementById("userrole").innerHTML = "普通用户";
         }
-        document.getElementById("username").innerHTML = userName;
+        document.getElementById("username").innerHTML = "<img class='infolist' src='resources/img/icons/account.svg'>" + userName;
     }
     else {//游客访问状态
         document.getElementById("loginuser").style.display = "none";

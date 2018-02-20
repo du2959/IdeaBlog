@@ -41,7 +41,7 @@ $(document).ready(function(){
             url:"https://free-api.heweather.com/s6/weather?location="+myCity+"&key=edd972bb8adb4bf682de3a2b106a9cb1",
             async:true,
             success:function(data){
-                var tag="<img src='resources/img/weather_icon/"+data.HeWeather6[0].now.cond_code+".png' alt='天气图片' style='display:block;float:left;width:100px;' /><div style='display:block;float:left;width:600px;margin-top:10px;margin-left:10px'><p><a href='#' onclick='modifyCity()'>"+data.HeWeather6[0].basic.admin_area+data.HeWeather6[0].basic.location+"</a></p><p>实况天气："+data.HeWeather6[0].now.cond_txt+"，温度："+data.HeWeather6[0].now.tmp+"℃，体感温度："+data.HeWeather6[0].now.fl+"℃，"+data.HeWeather6[0].now.wind_dir+data.HeWeather6[0].now.wind_sc+"级。</p><p>舒适度指数："+data.HeWeather6[0].lifestyle[0].brf+"。"+data.HeWeather6[0].lifestyle[0].txt+"</p></div>";
+                var tag = "<img src='resources/img/weather_icon/" + data.HeWeather6[0].now.cond_code + ".png' alt='天气图片' style='display:block;float:left;width:100px;' /><div style='display:block;float:left;width:600px;margin-top:10px;margin-left:10px'><p><a href='#' onclick='modifyCity()'>" + "<img class='tabicon' src='resources/img/icons/map.svg'>" + data.HeWeather6[0].basic.admin_area + data.HeWeather6[0].basic.location + "</a></p><p>实况天气：" + data.HeWeather6[0].now.cond_txt + "，温度：" + data.HeWeather6[0].now.tmp + "℃，体感温度：" + data.HeWeather6[0].now.fl + "℃，" + data.HeWeather6[0].now.wind_dir + data.HeWeather6[0].now.wind_sc + "级。</p><p>舒适度指数：" + data.HeWeather6[0].lifestyle[0].brf + "。" + data.HeWeather6[0].lifestyle[0].txt + "</p></div>";
                 $("#weather").html(tag);
             },
             error:function(){

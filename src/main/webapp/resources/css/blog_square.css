@@ -22,13 +22,19 @@
 #blogs_filter a:hover {
 	background-color: #eee;
 }
-#allblog ul {
+.tabicon {
+	position: relative;
+	top: 2px;
+	right: 5px;
+}
+#bloglist {
 	display: block;
 	float: left;
 	width: 98%;
 	background-color: #eee;
+    border-top-right-radius: 5px;
 }
-#allblog li {
+#bloglist li {
 	display: block;
 	float: left;
 	width: 98%;
@@ -37,7 +43,7 @@
 	border-left: 2px solid #008B8B;
     border-bottom: 1px dotted #666;
 }
-#allblog li a {
+#bloglist li a {
     color: dodgerblue;
 	text-decoration: underline;
 }
@@ -47,6 +53,7 @@
     padding: 5px;
     color: dodgerblue;
     text-decoration: underline;
+    background: none;
 }
 .blue {
 	color: dodgerblue;
