@@ -39,15 +39,7 @@
 			</div>
 			<div id="log">
 				<h4>系统日志</h4>
-				<ul id="systemlog">
-					<li><span>某时间</span><span>执行了</span><span>某操作</span></li>
-					<li><span>某时间</span><span>登录系统</span></li>
-					<li><span>某时间</span><span>删除了</span><span>某博客</span></li>
-					<li><span>某时间</span><span>上传了</span><span>某文件</span></li>
-					<li><span>某时间</span><span>删除了</span><span>某文件</span></li>
-					<li><span>某时间</span><span>更新了个人资料</span></li>
-					<li><span>某时间</span><span>修改了密码</span></li>
-				</ul>
+				<ul id="systemlog"></ul>
                 <input type="button" id="showmoresystemlog" value="showmoresystemlog" />
 			</div>
 		</div>

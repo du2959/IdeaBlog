@@ -11,6 +11,7 @@ function showStatistics() {
         async:true,
         success:function(data){
             $("#blogCount").html(data.blogCount);
+            $("#fileCount").html(data.fileCount);
             $("#followCount").html(data.followCount);
             $("#collectCount").html(data.collectCount);
             console.log("统计数据已刷新");

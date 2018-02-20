@@ -60,7 +60,7 @@ function showBlogs(action, liNum) {
         success:function(data){
             var str = "";
             for(var i = 0;i < data.length && i < liNum;i++) {
-                str += "<li><span class='blue'>" + data[i].username + "</span><span>发布：</span><a href='blogPage?blogId=" + data[i].id + "' target='_blank'>" + data[i].title + "</a><p>标签：&nbsp;&nbsp;<span>" + data[i].tag + "</span></p><p>浏览：<span>" + data[i].views + "</span>&nbsp;&nbsp;收藏：<span>" + data[i].collects + "</span></p><p class='gray'>更新时间：<span>" + new Date(data[i].editTime).format("yyyy-MM-dd hh:mm:ss") + "</span></p></li>";
+                str += "<li><span class='blue'>" + data[i].username + "</span><span>发布：</span><a href='blogPage?blogId=" + data[i].id + "' target='_blank'>" + data[i].title + "</a><p><img class='bloglist' src='resources/img/icons/discount.svg'>&nbsp;<span>" + data[i].tag + "</span></p><p><img class='bloglist' src='resources/img/icons/browse.svg'>&nbsp;<span>" + data[i].views + "</span>&nbsp;&nbsp;&nbsp;&nbsp;<img class='bloglist' src='resources/img/icons/favorite-16.svg'>&nbsp;<span>" + data[i].collects + "</span></p><p class='gray'><img class='bloglist' src='resources/img/icons/clock-16-gray.svg'>&nbsp;<span>" + new Date(data[i].editTime).format("yyyy-MM-dd hh:mm:ss") + "</span></p></li>";
             }
             $("#bloglist").html(str);
             $("#showmore").val("点击加载更多");
@@ -87,7 +87,7 @@ function showMore(action) {
             }
             else {
                 for(var i = liNum, len = i + 3;i < len && i < data.length;i++) {
-                    var str = "<li><span class='blue'>" + data[i].username + "</span><span>发布：</span><a href='blogPage?blogId=" + data[i].id + "' target='_blank'>" + data[i].title + "</a><p>标签：&nbsp;&nbsp;<span>" + data[i].tag + "</span></p><p>浏览：<span>" + data[i].views + "</span>&nbsp;&nbsp;收藏：<span>" + data[i].collects + "</span></p><p class='gray'>更新时间：<span>" + new Date(data[i].editTime).format("yyyy-MM-dd hh:mm:ss") + "</span></p></li>";
+                    var str = "<li><span class='blue'>" + data[i].username + "</span><span>发布：</span><a href='blogPage?blogId=" + data[i].id + "' target='_blank'>" + data[i].title + "</a><p><img class='bloglist' src='resources/img/icons/discount.svg'>&nbsp;<span>" + data[i].tag + "</span></p><p><img class='bloglist' src='resources/img/icons/browse.svg'>&nbsp;<span>" + data[i].views + "</span>&nbsp;&nbsp;&nbsp;&nbsp;<img class='bloglist' src='resources/img/icons/favorite-16.svg'>&nbsp;<span>" + data[i].collects + "</span></p><p class='gray'><img class='bloglist' src='resources/img/icons/clock-16-gray.svg'>&nbsp;<span>" + new Date(data[i].editTime).format("yyyy-MM-dd hh:mm:ss") + "</span></p></li>";
                     $("#bloglist").append(str);
                 }
                 console.log("加载更多");

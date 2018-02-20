@@ -9,11 +9,14 @@
             (SELECT COUNT(userId) AS blogCount
              FROM blog
              WHERE userId = #{userId}) a,
+             (SELECT COUNT(userId) AS fileCount
+             FROM cloudfile
+             WHERE userId = #{userId}) b,
             (SELECT COUNT(followerId) AS followCount
              FROM r_follow
-             WHERE followerId = #{userId}) b,
+             WHERE followerId = #{userId}) c,
             (SELECT COUNT(userId) AS collectCount
              FROM r_collect
-             WHERE userId = #{userId}) c
+             WHERE userId = #{userId}) d
     </select>
 </mapper>
