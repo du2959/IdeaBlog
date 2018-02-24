@@ -3,9 +3,24 @@
 
 <!-- 设置为IFeedbackDao接口方法提供sql语句配置 -->
 <mapper namespace="ideablog.dao.IFeedbackDao">
+    <select id="selectAllFeedbacks" resultType="Feedback">
+        SELECT *
+        FROM feedback
+        ORDER BY time DESC
+    </select>
     <insert id="insertFeedback">
         INSERT
         INTO feedback (title, email, content, time)
         VALUES (#{title}, #{email}, #{content}, #{time})
     </insert>
+    <update id="switchStatusById">
+        UPDATE feedback
+        SET status = #{status}
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteFeedbackById" parameterType="long">
+        DELETE
+        FROM feedback
+        WHERE id = #{id}
+    </delete>
 </mapper>

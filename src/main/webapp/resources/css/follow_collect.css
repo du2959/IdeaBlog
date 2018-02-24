@@ -40,3 +40,8 @@ li {
 .gray {
     color: #888;
 }
+.bloglist {
+	position: relative;
+	top: 2px;
+	left: 0px;
+}

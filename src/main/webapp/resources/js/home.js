@@ -80,7 +80,7 @@ function showDaySentence(){
         url:"http://open.iciba.com/dsapi",
         async:true,
         success:function(obj){
-            var tag="<p title='每日一句："+obj.note+"'>"+obj.content+"</p>";
+            var tag = "<p title='每日一句："+obj.note+"'>"+obj.content+"</p>";
             $("#daysentence").html(tag);
         },
         error:function(){

@@ -81,7 +81,7 @@ function showSystemLogs(liNum) {
         success:function(data){
             var str = "";
             for(var i = 0;i < data.length && i < liNum;i++) {
-                str += "<li><p><span>" + new Date(data[i].opTime).format("yyyy-MM-dd hh:mm:ss") + "</span>：<span class='blue'>" + data[i].description + "</span></p></li>";
+                str += "<li><p><span>" + new Date(data[i].opTime).format("yyyy-MM-dd hh:mm:ss") + "</span>&nbsp;：&nbsp;<span class='blue'>" + data[i].description + "</span></p></li>";
             }
             $("#systemlog").html(str);
             $("#showmoresystemlog").val("点击加载更多");
@@ -108,7 +108,7 @@ function showMoreSystemLogs(action) {
             }
             else {
                 for(var i = liNum, len = i + 3;i < len && i < data.length;i++) {
-                    var str = "<li><p><span>" + new Date(data[i].opTime).format("yyyy-MM-dd hh:mm:ss") + "</span>：<span class='blue'>" + data[i].description + "</span></p></li>";
+                    var str = "<li><p><span>" + new Date(data[i].opTime).format("yyyy-MM-dd hh:mm:ss") + "</span>&nbsp;：&nbsp;<span class='blue'>" + data[i].description + "</span></p></li>";
                     $("#systemlog").append(str);
                 }
                 console.log("加载更多");

@@ -2,9 +2,11 @@ package ideablog.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import ideablog.model.CloudFile;
+import ideablog.model.Feedback;
 import ideablog.model.Log;
 import ideablog.model.User;
 import ideablog.service.ICloudFileService;
+import ideablog.service.IFeedbackService;
 import ideablog.service.ILogService;
 import ideablog.service.IUserService;
 import org.springframework.stereotype.Controller;
@@ -29,6 +31,8 @@ public class SystemController {
     private ILogService logService;
     @Resource
     private ICloudFileService cloudFileService;
+    @Resource
+    private IFeedbackService feedbackService;
 
     @RequestMapping(value = "/system.do", method = GET)//验证管理员身份后跳转
     public String system(HttpSession session) {
@@ -129,5 +133,51 @@ public class SystemController {
         respJson = mapper.writeValueAsString(cloudFileList);
         response.getWriter().write(respJson);
         response.getWriter().close();
+    }
+
+    @RequestMapping(value = "/showAllFeedbacks.do", method = POST)//全部反馈
+    public void showAllFeedbacks(HttpServletResponse response) throws IOException {
+        response.setCharacterEncoding("UTF-8");
+        List<Feedback> userList = this.feedbackService.selectAllFeedbacks();
+        String respJson;
+        ObjectMapper mapper = new ObjectMapper();
+        respJson = mapper.writeValueAsString(userList);
+        response.getWriter().write(respJson);
+        response.getWriter().close();
+    }
+
+    @RequestMapping(value = "/switchFeedbackStatus.do", method = POST)//切换反馈处理状态
+    public void switchFeedbackStatus(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+        Boolean sw;
+        sw = this.feedbackService.switchStatusById(Long.parseLong(request.getParameter("feedbackId")), Integer.parseInt(request.getParameter("status")));
+        if(sw) {
+            System.out.println("反馈处理状态切换成功！");
+            response.getWriter().write("反馈处理状态切换成功！");
+            response.getWriter().close();
+        } else {
+            System.out.println("反馈处理状态切换失败！");
+            response.getWriter().write("反馈处理状态切换失败！");
+            response.getWriter().close();
+        }
+    }
+
+    @RequestMapping(value = "/deleteFeedback.do", method = POST)//删除反馈
+    public void deleteFeedback(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        request.setCharacterEncoding("UTF-8");
+        response.setCharacterEncoding("UTF-8");
+        Boolean delete;
+        delete = this.feedbackService.deleteFeedbackById(Long.parseLong(request.getParameter("feedbackId")));
+        if(delete) {
+            System.out.println("反馈删除成功！");
+            response.getWriter().write("反馈删除成功！");
+            response.getWriter().close();
+        }
+        else {
+            System.out.println("反馈删除失败！");
+            response.getWriter().write("反馈删除失败！");
+            response.getWriter().close();
+        }
     }
 }

@@ -9,6 +9,7 @@ public class Feedback {
     private String email;
     private String content;
     private Date time;
+    private int status;
 
     public long getId() {
         return id;
@@ -48,5 +49,13 @@ public class Feedback {
 
     public void setTime(Date time) {
         this.time = time;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }

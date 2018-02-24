@@ -10,17 +10,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3f2b770-4fab-4657-86ec-db1079ce681e" name="Default" comment="IDEA first commit.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/icons/browse.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/icons/clock-16-gray.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/icons/discount.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/img/icons/favorite-16.svg" />
+    <list default="true" id="a3f2b770-4fab-4657-86ec-db1079ce681e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StatisticDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/StatisticDao.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/blog_square.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/blog_square.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/blog_square.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/blog_square.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/dao/IFeedbackDao.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/dao/IFeedbackDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/model/Feedback.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/model/Feedback.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/follow_collect.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/follow_collect.css" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/follow_collect.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/follow_collect.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/notice.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/notice.js" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +41,7 @@
     <SUITE FILE_PATH="coverage/IdeaBlog$IUserDaoTest_testInsertUser.coverage" NAME="IUserDaoTest.testInsertUser Coverage Results" MODIFIED="1517135890085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ideablog.dao.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IdeaBlog$Tomcat_8_0_48.coverage" NAME="Tomcat 8.0.48 Coverage Results" MODIFIED="1519134148637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IdeaBlog$Tomcat_8_0_48.coverage" NAME="Tomcat 8.0.48 Coverage Results" MODIFIED="1519448259820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IdeaBlog$IUserDaoTest_testTime.coverage" NAME="IUserDaoTest.testTime Coverage Results" MODIFIED="1517145424053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ideablog.dao.*</FILTER>
     </SUITE>
@@ -69,58 +72,191 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/HomeController.java">
+      <file leaf-file-name="FeedbackServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="101" column="9" lean-forward="false" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
+            <state relative-caret-position="66">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
-                <element signature="method#loginPage#0;class#HomeController#0" expanded="false" />
-                <element signature="e#1136#1187#0" expanded="false" />
-                <element signature="method#loginout#0;class#HomeController#0" expanded="false" />
-                <element signature="method#visit#0;class#HomeController#0" expanded="false" />
-                <element signature="method#findUser#0;class#HomeController#0" expanded="false" />
-                <element signature="method#find#1;class#HomeController#0" expanded="false" />
+                <element signature="method#addFeedback#0;class#FeedbackServiceImpl#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blog_square.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/blog_square.js">
+      <file leaf-file-name="SystemController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
-              <folding>
-                <marker date="1519133974997" expanded="true" signature="1532:1569" ph="..." />
-                <marker date="1519133974997" expanded="true" signature="1585:1654" ph="..." />
-                <marker date="1519133974997" expanded="true" signature="2816:2822" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="2920:2926" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="2960:2966" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="2966:2972" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="2972:2978" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="2978:2984" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="3048:3054" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="3177:3183" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4248:4254" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4352:4358" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4392:4398" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4398:4404" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4404:4410" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4410:4416" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4480:4486" ph="&amp;nbsp;" />
-                <marker date="1519133974997" expanded="true" signature="4609:4615" ph="&amp;nbsp;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog_square.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/blog_square.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="63" column="11" lean-forward="false" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+            <state relative-caret-position="795">
+              <caret line="172" column="42" lean-forward="false" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/system.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="668" column="1" lean-forward="true" selection-start-line="668" selection-start-column="1" selection-end-line="668" selection-end-column="1" />
+              <folding>
+                <element signature="e#29#23728#0" expanded="false" />
+                <element signature="e#49#98#0" expanded="false" />
+                <element signature="e#141#4395#0" expanded="false" />
+                <element signature="e#471#4388#0" expanded="false" />
+                <element signature="e#1810#4164#0" expanded="false" />
+                <element signature="e#1828#2080#0" expanded="false" />
+                <element signature="e#2009#2016#0" expanded="false" />
+                <element signature="e#2098#2263#0" expanded="false" />
+                <element signature="e#2281#2447#0" expanded="false" />
+                <element signature="e#2465#2903#0" expanded="false" />
+                <element signature="e#2672#2885#0" expanded="false" />
+                <element signature="e#2757#2826#0" expanded="false" />
+                <element signature="e#2921#3084#0" expanded="false" />
+                <element signature="e#3102#3270#0" expanded="false" />
+                <element signature="e#3288#3452#0" expanded="false" />
+                <element signature="e#3454#3823#0" expanded="false" />
+                <element signature="e#3663#3805#0" expanded="false" />
+                <element signature="e#3825#4150#0" expanded="false" />
+                <element signature="e#3995#4132#0" expanded="false" />
+                <element signature="e#4205#4273#0" expanded="false" />
+                <element signature="e#4312#4378#0" expanded="false" />
+                <element signature="e#4440#9824#0" expanded="false" />
+                <element signature="e#4770#9817#0" expanded="false" />
+                <element signature="e#4912#4921#0" expanded="false" />
+                <element signature="e#5295#5301#0" expanded="false" />
+                <element signature="e#5728#5767#0" expanded="false" />
+                <element signature="e#6027#6038#0" expanded="false" />
+                <element signature="e#6398#9593#0" expanded="false" />
+                <element signature="e#6416#6420#0" expanded="false" />
+                <element signature="e#6556#6808#0" expanded="false" />
+                <element signature="e#6737#6744#0" expanded="false" />
+                <element signature="e#6826#6991#0" expanded="false" />
+                <element signature="e#7009#7175#0" expanded="false" />
+                <element signature="e#7193#7355#0" expanded="false" />
+                <element signature="e#7357#7517#0" expanded="false" />
+                <element signature="e#7535#7539#0" expanded="false" />
+                <element signature="e#7735#7897#0" expanded="false" />
+                <element signature="e#7899#8064#0" expanded="false" />
+                <element signature="e#8066#8437#0" expanded="false" />
+                <element signature="e#8277#8419#0" expanded="false" />
+                <element signature="e#8439#9110#0" expanded="false" />
+                <element signature="e#8680#9092#0" expanded="false" />
+                <element signature="e#8774#8894#0" expanded="false" />
+                <element signature="e#8916#9033#0" expanded="false" />
+                <element signature="e#9112#9579#0" expanded="false" />
+                <element signature="e#9332#9561#0" expanded="false" />
+                <element signature="e#9634#9702#0" expanded="false" />
+                <element signature="e#9741#9807#0" expanded="false" />
+                <element signature="e#9866#14684#0" expanded="false" />
+                <element signature="e#10196#14677#0" expanded="false" />
+                <element signature="e#11536#14453#0" expanded="false" />
+                <element signature="e#11554#11806#0" expanded="false" />
+                <element signature="e#11735#11742#0" expanded="false" />
+                <element signature="e#11824#11990#0" expanded="false" />
+                <element signature="e#12008#12535#0" expanded="false" />
+                <element signature="e#12215#12517#0" expanded="false" />
+                <element signature="e#12297#12367#0" expanded="false" />
+                <element signature="e#12389#12458#0" expanded="false" />
+                <element signature="e#12553#12715#0" expanded="false" />
+                <element signature="e#12733#13103#0" expanded="false" />
+                <element signature="e#12943#13085#0" expanded="false" />
+                <element signature="e#13121#13943#0" expanded="false" />
+                <element signature="e#13330#13925#0" expanded="false" />
+                <element signature="e#13415#13866#0" expanded="false" />
+                <element signature="e#13461#13638#0" expanded="false" />
+                <element signature="e#13660#13840#0" expanded="false" />
+                <element signature="e#13961#14439#0" expanded="false" />
+                <element signature="e#14131#14421#0" expanded="false" />
+                <element signature="e#14216#14362#0" expanded="false" />
+                <element signature="e#14494#14562#0" expanded="false" />
+                <element signature="e#14601#14667#0" expanded="false" />
+                <element signature="e#14726#19481#0" expanded="false" />
+                <element signature="e#15056#19474#0" expanded="false" />
+                <element signature="e#16396#19250#0" expanded="false" />
+                <element signature="e#16414#16620#0" expanded="false" />
+                <element signature="e#16638#16804#0" expanded="false" />
+                <element signature="e#16822#16988#0" expanded="false" />
+                <element signature="e#17006#17526#0" expanded="false" />
+                <element signature="e#17216#17508#0" expanded="false" />
+                <element signature="e#17265#17387#0" expanded="false" />
+                <element signature="e#17417#17486#0" expanded="false" />
+                <element signature="e#17544#17709#0" expanded="false" />
+                <element signature="e#17727#18096#0" expanded="false" />
+                <element signature="e#17936#18078#0" expanded="false" />
+                <element signature="e#18114#18747#0" expanded="false" />
+                <element signature="e#18321#18729#0" expanded="false" />
+                <element signature="e#18415#18533#0" expanded="false" />
+                <element signature="e#18555#18670#0" expanded="false" />
+                <element signature="e#18765#19236#0" expanded="false" />
+                <element signature="e#18985#19218#0" expanded="false" />
+                <element signature="e#19291#19359#0" expanded="false" />
+                <element signature="e#19398#19464#0" expanded="false" />
+                <element signature="e#19527#23724#0" expanded="false" />
+                <element signature="e#19857#23717#0" expanded="false" />
+                <element signature="e#21201#23493#0" expanded="false" />
+                <element signature="e#21219#21425#0" expanded="false" />
+                <element signature="e#21443#21608#0" expanded="false" />
+                <element signature="e#21626#21790#0" expanded="false" />
+                <element signature="e#21808#21974#0" expanded="false" />
+                <element signature="e#21992#22359#0" expanded="false" />
+                <element signature="e#22199#22341#0" expanded="false" />
+                <element signature="e#22377#23131#0" expanded="false" />
+                <element signature="e#22584#23113#0" expanded="false" />
+                <element signature="e#22678#22855#0" expanded="false" />
+                <element signature="e#22877#23054#0" expanded="false" />
+                <element signature="e#23149#23479#0" expanded="false" />
+                <element signature="e#23319#23461#0" expanded="false" />
+                <element signature="e#23534#23602#0" expanded="false" />
+                <element signature="e#23641#23707#0" expanded="false" />
+                <element signature="n#!!block;n#deleteLog#0" expanded="false" />
+                <element signature="e#23804#24183#0" expanded="false" />
+                <element signature="e#23821#24175#0" expanded="false" />
+                <element signature="e#23953#24082#0" expanded="false" />
+                <element signature="e#24112#24165#0" expanded="false" />
+                <element signature="n#!!block;n#blogPage#0" expanded="false" />
+                <element signature="n#!!block;n#deleteBlog#0" expanded="false" />
+                <element signature="e#24345#24728#0" expanded="false" />
+                <element signature="e#24362#24720#0" expanded="false" />
+                <element signature="e#24497#24627#0" expanded="false" />
+                <element signature="e#24657#24710#0" expanded="false" />
+                <element signature="n#!!block;n#switchUserStatus#0" expanded="false" />
+                <element signature="e#24804#25229#0" expanded="false" />
+                <element signature="e#24821#25221#0" expanded="false" />
+                <element signature="e#24998#25128#0" expanded="false" />
+                <element signature="e#25158#25211#0" expanded="false" />
+                <element signature="n#!!block;n#deleteUser#0" expanded="false" />
+                <element signature="e#25306#25689#0" expanded="false" />
+                <element signature="e#25323#25681#0" expanded="false" />
+                <element signature="e#25458#25588#0" expanded="false" />
+                <element signature="e#25618#25671#0" expanded="false" />
+                <element signature="n#!!block;n#downloadFile#0" expanded="false" />
+                <element signature="n#!!block;n#deleteFile#0" expanded="false" />
+                <element signature="e#25850#26233#0" expanded="false" />
+                <element signature="e#25867#26225#0" expanded="false" />
+                <element signature="e#26002#26132#0" expanded="false" />
+                <element signature="e#26162#26215#0" expanded="false" />
+                <element signature="n#!!block;n#switchFeedbackStatus#0" expanded="false" />
+                <element signature="e#26317#26758#0" expanded="false" />
+                <element signature="e#26334#26750#0" expanded="false" />
+                <element signature="e#26523#26657#0" expanded="false" />
+                <element signature="e#26687#26740#0" expanded="false" />
+                <element signature="n#!!block;n#deleteFeedback#0" expanded="false" />
+                <element signature="e#26847#27246#0" expanded="false" />
+                <element signature="e#26864#27238#0" expanded="false" />
+                <element signature="e#27011#27145#0" expanded="false" />
+                <element signature="e#27175#27228#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,13 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/annotation/SystemControllerLog.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/aop/SystemLogAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/model/Log.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/controller/BlogSquareController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/dao/ILogDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/LogDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/ILogService.java" />
@@ -171,14 +300,11 @@
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/IUserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/dao/ICloudFileDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/ICloudFileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/impl/CloudFileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/CloudFileDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/model/Blog.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/controller/BlogManageController.java" />
@@ -191,16 +317,26 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/utils/Constant.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/home.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog_square.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/notice.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/StatisticDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/notice.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/css/blog_square.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/blog_square.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/notice.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/follow_collect.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/follow_collect.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" />
+        <option value="$PROJECT_DIR$/src/main/java/ideablog/model/Feedback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ideablog/dao/IFeedbackDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml" />
       </list>
     </option>
   </component>
@@ -437,10 +573,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -889,7 +1025,9 @@
       <workItem from="1518839004195" duration="28448000" />
       <workItem from="1518947584633" duration="7124000" />
       <workItem from="1519028509400" duration="19240000" />
-      <workItem from="1519114408506" duration="7825000" />
+      <workItem from="1519114408506" duration="8208000" />
+      <workItem from="1519207687224" duration="5363000" />
+      <workItem from="1519444678387" duration="4248000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA first commit.">
       <created>1519114545083</created>
@@ -898,7 +1036,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519114545083</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="blog square list icons.">
+      <created>1519134573888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1519134573888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -934,7 +1079,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="649093000" />
+    <option name="totallyTimeSpent" value="659087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -950,7 +1095,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29127726" sideWeight="0.5087848" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31464174" sideWeight="0.511713" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49707174" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -969,7 +1114,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31464174" sideWeight="0.49121523" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27258566" sideWeight="0.48828697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21742313" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1005,7 +1150,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IDEA first commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="IDEA first commit." />
+    <MESSAGE value="blog square list icons." />
+    <option name="LAST_COMMIT_MESSAGE" value="blog square list icons." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1014,115 +1160,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/service/ICloudFileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/setting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="51" column="89" lean-forward="true" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="89" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/BlogSquareController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2647">
-          <caret line="225" column="28" lean-forward="true" selection-start-line="225" selection-start-column="28" selection-end-line="225" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/model/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="99" column="35" lean-forward="false" selection-start-line="99" selection-start-column="35" selection-end-line="99" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="81" column="13" lean-forward="true" selection-start-line="77" selection-start-column="4" selection-end-line="81" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/BlogManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/system.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1029">
-          <caret line="383" column="33" lean-forward="false" selection-start-line="383" selection-start-column="33" selection-end-line="383" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CloudFileDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1329">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2046">
-          <caret line="93" column="17" lean-forward="true" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/blog.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/utils/MyTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -1188,11 +1225,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/icons/home.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1220,14 +1252,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/icons/image-text.svg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/home.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="95" column="22" lean-forward="false" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/icons/favorites-64.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1245,7 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,14 +1294,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/notice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/notice.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1291,15 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1307,29 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="638">
           <caret line="29" column="16" lean-forward="false" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="101" column="9" lean-forward="false" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
-          <folding>
-            <element signature="method#loginPage#0;class#HomeController#0" expanded="false" />
-            <element signature="e#1136#1187#0" expanded="false" />
-            <element signature="method#loginout#0;class#HomeController#0" expanded="false" />
-            <element signature="method#visit#0;class#HomeController#0" expanded="false" />
-            <element signature="method#findUser#0;class#HomeController#0" expanded="false" />
-            <element signature="method#find#1;class#HomeController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="13" column="117" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="117" />
           <folding />
         </state>
       </provider>
@@ -1354,18 +1337,83 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/setting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/notice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2420">
+          <caret line="110" column="126" lean-forward="false" selection-start-line="110" selection-start-column="126" selection-end-line="110" selection-end-column="126" />
+          <folding>
+            <marker date="1519210317634" expanded="true" signature="3169:3175" ph="&amp;nbsp;" />
+            <marker date="1519210317634" expanded="true" signature="3176:3182" ph="&amp;nbsp;" />
+            <marker date="1519210317634" expanded="true" signature="4147:4153" ph="&amp;nbsp;" />
+            <marker date="1519210317634" expanded="true" signature="4154:4160" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/follow_collect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="88" column="705" lean-forward="false" selection-start-line="88" selection-start-column="705" selection-end-line="88" selection-end-column="705" />
+          <folding>
+            <marker date="1519210900743" expanded="true" signature="2517:2523" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2621:2627" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2661:2667" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2667:2673" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2673:2679" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2679:2685" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2749:2755" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="2878:2884" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4034:4040" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4138:4144" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4178:4184" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4184:4190" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4190:4196" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4196:4202" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4266:4272" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="4395:4401" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="5010:5016" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="5016:5022" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="5121:5127" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="5127:5133" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="5209:5215" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="5215:5221" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="6207:6213" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="6213:6219" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="6318:6324" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="6324:6330" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="6406:6412" ph="&amp;nbsp;" />
+            <marker date="1519210900743" expanded="true" signature="6412:6418" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/follow_collect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/blog_square.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="63" column="11" lean-forward="false" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+        <state relative-caret-position="348">
+          <caret line="67" column="1" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="67" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/blog_square.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="58" column="19" lean-forward="true" selection-start-line="58" selection-start-column="19" selection-end-line="58" selection-end-column="19" />
+        <state relative-caret-position="152">
+          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="698" />
           <folding>
             <marker date="1519133974997" expanded="true" signature="1532:1569" ph="..." />
             <marker date="1519133974997" expanded="true" signature="1585:1654" ph="..." />
@@ -1385,6 +1433,335 @@
             <marker date="1519133974997" expanded="true" signature="4410:4416" ph="&amp;nbsp;" />
             <marker date="1519133974997" expanded="true" signature="4480:4486" ph="&amp;nbsp;" />
             <marker date="1519133974997" expanded="true" signature="4609:4615" ph="&amp;nbsp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/img/icons/home.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="30" column="42" lean-forward="false" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+          <folding>
+            <element signature="method#loginPage#0;class#HomeController#0" expanded="false" />
+            <element signature="e#1136#1187#0" expanded="false" />
+            <element signature="method#login#0;class#HomeController#0" expanded="false" />
+            <element signature="method#loginout#0;class#HomeController#0" expanded="false" />
+            <element signature="method#visit#0;class#HomeController#0" expanded="false" />
+            <element signature="method#register#1;class#HomeController#0" expanded="false" />
+            <element signature="method#findUser#0;class#HomeController#0" expanded="false" />
+            <element signature="method#find#1;class#HomeController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/model/Feedback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1519022625894" expanded="true" signature="305:356" ph="SELECT * FRO... user" />
+            <marker date="1519022625894" expanded="true" signature="430:456" ph="SELECT * FRO... user" />
+            <marker date="1519022625894" expanded="true" signature="556:613" ph="SELECT * FRO... user" />
+            <marker date="1519022625894" expanded="true" signature="683:773" ph="SELECT * FRO... user" />
+            <marker date="1519022625894" expanded="true" signature="825:950" ph="INSERT INTO user" />
+            <marker date="1519022625894" expanded="true" signature="1016:1099" ph="UPDATE user... " />
+            <marker date="1519022625894" expanded="true" signature="1155:1290" ph="UPDATE user... " />
+            <marker date="1519022625894" expanded="true" signature="1372:1440" ph="UPDATE user... " />
+            <marker date="1519022625894" expanded="true" signature="1522:1590" ph="UPDATE user... " />
+            <marker date="1519022625894" expanded="true" signature="1648:1715" ph="UPDATE user... " />
+            <marker date="1519022625894" expanded="true" signature="1792:1841" ph="DELETE FROM user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/dao/IFeedbackDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="172" column="42" lean-forward="false" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="30" />
+          <folding>
+            <marker date="1519022625886" expanded="true" signature="305:438" ph="SELECT blog.... blog" />
+            <marker date="1519022625886" expanded="true" signature="539:605" ph="SELECT * FRO... blog" />
+            <marker date="1519022625886" expanded="true" signature="679:870" ph="SELECT blog.... blog" />
+            <marker date="1519022625886" expanded="true" signature="944:1108" ph="SELECT blog.... blog" />
+            <marker date="1519022625886" expanded="true" signature="1211:1301" ph="SELECT * FRO... blog" />
+            <marker date="1519022625886" expanded="true" signature="1408:1579" ph="SELECT * FRO... blog" />
+            <marker date="1519022625886" expanded="true" signature="1468:1547" ph="SELECT blogI... r_collect" />
+            <marker date="1519022625886" expanded="true" signature="1685:1949" ph="SELECT blog.... blog" />
+            <marker date="1519022625886" expanded="true" signature="1831:1917" ph="SELECT userI... r_follow" />
+            <marker date="1519022625886" expanded="true" signature="2023:2202" ph="SELECT blog.... blog" />
+            <marker date="1519022625886" expanded="true" signature="2254:2407" ph="INSERT INTO blog" />
+            <marker date="1519022625886" expanded="true" signature="2463:2588" ph="UPDATE blog... " />
+            <marker date="1519022625886" expanded="true" signature="2646:2713" ph="UPDATE blog... " />
+            <marker date="1519022625886" expanded="true" signature="2793:2857" ph="UPDATE blog... " />
+            <marker date="1519022625886" expanded="true" signature="2940:3010" ph="UPDATE blog... " />
+            <marker date="1519022625886" expanded="true" signature="3093:3163" ph="UPDATE blog... " />
+            <marker date="1519022625886" expanded="true" signature="3240:3289" ph="DELETE FROM blog" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <marker date="1519448228791" expanded="true" signature="300:330" ph="SELECT * FRO... user" />
+            <marker date="1519448228791" expanded="true" signature="300:357" ph="SELECT * FRO... feedback" />
+            <marker date="1519448228791" expanded="true" signature="413:528" ph="INSERT INTO feedback" />
+            <marker date="1519448228791" expanded="true" signature="586:657" ph="UPDATE feedback... " />
+            <marker date="1519448228791" expanded="true" signature="738:791" ph="DELETE FROM feedback" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="method#addFeedback#0;class#FeedbackServiceImpl#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/system.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="668" column="1" lean-forward="true" selection-start-line="668" selection-start-column="1" selection-end-line="668" selection-end-column="1" />
+          <folding>
+            <element signature="e#29#23728#0" expanded="false" />
+            <element signature="e#49#98#0" expanded="false" />
+            <element signature="e#141#4395#0" expanded="false" />
+            <element signature="e#471#4388#0" expanded="false" />
+            <element signature="e#1810#4164#0" expanded="false" />
+            <element signature="e#1828#2080#0" expanded="false" />
+            <element signature="e#2009#2016#0" expanded="false" />
+            <element signature="e#2098#2263#0" expanded="false" />
+            <element signature="e#2281#2447#0" expanded="false" />
+            <element signature="e#2465#2903#0" expanded="false" />
+            <element signature="e#2672#2885#0" expanded="false" />
+            <element signature="e#2757#2826#0" expanded="false" />
+            <element signature="e#2921#3084#0" expanded="false" />
+            <element signature="e#3102#3270#0" expanded="false" />
+            <element signature="e#3288#3452#0" expanded="false" />
+            <element signature="e#3454#3823#0" expanded="false" />
+            <element signature="e#3663#3805#0" expanded="false" />
+            <element signature="e#3825#4150#0" expanded="false" />
+            <element signature="e#3995#4132#0" expanded="false" />
+            <element signature="e#4205#4273#0" expanded="false" />
+            <element signature="e#4312#4378#0" expanded="false" />
+            <element signature="e#4440#9824#0" expanded="false" />
+            <element signature="e#4770#9817#0" expanded="false" />
+            <element signature="e#4912#4921#0" expanded="false" />
+            <element signature="e#5295#5301#0" expanded="false" />
+            <element signature="e#5728#5767#0" expanded="false" />
+            <element signature="e#6027#6038#0" expanded="false" />
+            <element signature="e#6398#9593#0" expanded="false" />
+            <element signature="e#6416#6420#0" expanded="false" />
+            <element signature="e#6556#6808#0" expanded="false" />
+            <element signature="e#6737#6744#0" expanded="false" />
+            <element signature="e#6826#6991#0" expanded="false" />
+            <element signature="e#7009#7175#0" expanded="false" />
+            <element signature="e#7193#7355#0" expanded="false" />
+            <element signature="e#7357#7517#0" expanded="false" />
+            <element signature="e#7535#7539#0" expanded="false" />
+            <element signature="e#7735#7897#0" expanded="false" />
+            <element signature="e#7899#8064#0" expanded="false" />
+            <element signature="e#8066#8437#0" expanded="false" />
+            <element signature="e#8277#8419#0" expanded="false" />
+            <element signature="e#8439#9110#0" expanded="false" />
+            <element signature="e#8680#9092#0" expanded="false" />
+            <element signature="e#8774#8894#0" expanded="false" />
+            <element signature="e#8916#9033#0" expanded="false" />
+            <element signature="e#9112#9579#0" expanded="false" />
+            <element signature="e#9332#9561#0" expanded="false" />
+            <element signature="e#9634#9702#0" expanded="false" />
+            <element signature="e#9741#9807#0" expanded="false" />
+            <element signature="e#9866#14684#0" expanded="false" />
+            <element signature="e#10196#14677#0" expanded="false" />
+            <element signature="e#11536#14453#0" expanded="false" />
+            <element signature="e#11554#11806#0" expanded="false" />
+            <element signature="e#11735#11742#0" expanded="false" />
+            <element signature="e#11824#11990#0" expanded="false" />
+            <element signature="e#12008#12535#0" expanded="false" />
+            <element signature="e#12215#12517#0" expanded="false" />
+            <element signature="e#12297#12367#0" expanded="false" />
+            <element signature="e#12389#12458#0" expanded="false" />
+            <element signature="e#12553#12715#0" expanded="false" />
+            <element signature="e#12733#13103#0" expanded="false" />
+            <element signature="e#12943#13085#0" expanded="false" />
+            <element signature="e#13121#13943#0" expanded="false" />
+            <element signature="e#13330#13925#0" expanded="false" />
+            <element signature="e#13415#13866#0" expanded="false" />
+            <element signature="e#13461#13638#0" expanded="false" />
+            <element signature="e#13660#13840#0" expanded="false" />
+            <element signature="e#13961#14439#0" expanded="false" />
+            <element signature="e#14131#14421#0" expanded="false" />
+            <element signature="e#14216#14362#0" expanded="false" />
+            <element signature="e#14494#14562#0" expanded="false" />
+            <element signature="e#14601#14667#0" expanded="false" />
+            <element signature="e#14726#19481#0" expanded="false" />
+            <element signature="e#15056#19474#0" expanded="false" />
+            <element signature="e#16396#19250#0" expanded="false" />
+            <element signature="e#16414#16620#0" expanded="false" />
+            <element signature="e#16638#16804#0" expanded="false" />
+            <element signature="e#16822#16988#0" expanded="false" />
+            <element signature="e#17006#17526#0" expanded="false" />
+            <element signature="e#17216#17508#0" expanded="false" />
+            <element signature="e#17265#17387#0" expanded="false" />
+            <element signature="e#17417#17486#0" expanded="false" />
+            <element signature="e#17544#17709#0" expanded="false" />
+            <element signature="e#17727#18096#0" expanded="false" />
+            <element signature="e#17936#18078#0" expanded="false" />
+            <element signature="e#18114#18747#0" expanded="false" />
+            <element signature="e#18321#18729#0" expanded="false" />
+            <element signature="e#18415#18533#0" expanded="false" />
+            <element signature="e#18555#18670#0" expanded="false" />
+            <element signature="e#18765#19236#0" expanded="false" />
+            <element signature="e#18985#19218#0" expanded="false" />
+            <element signature="e#19291#19359#0" expanded="false" />
+            <element signature="e#19398#19464#0" expanded="false" />
+            <element signature="e#19527#23724#0" expanded="false" />
+            <element signature="e#19857#23717#0" expanded="false" />
+            <element signature="e#21201#23493#0" expanded="false" />
+            <element signature="e#21219#21425#0" expanded="false" />
+            <element signature="e#21443#21608#0" expanded="false" />
+            <element signature="e#21626#21790#0" expanded="false" />
+            <element signature="e#21808#21974#0" expanded="false" />
+            <element signature="e#21992#22359#0" expanded="false" />
+            <element signature="e#22199#22341#0" expanded="false" />
+            <element signature="e#22377#23131#0" expanded="false" />
+            <element signature="e#22584#23113#0" expanded="false" />
+            <element signature="e#22678#22855#0" expanded="false" />
+            <element signature="e#22877#23054#0" expanded="false" />
+            <element signature="e#23149#23479#0" expanded="false" />
+            <element signature="e#23319#23461#0" expanded="false" />
+            <element signature="e#23534#23602#0" expanded="false" />
+            <element signature="e#23641#23707#0" expanded="false" />
+            <element signature="n#!!block;n#deleteLog#0" expanded="false" />
+            <element signature="e#23804#24183#0" expanded="false" />
+            <element signature="e#23821#24175#0" expanded="false" />
+            <element signature="e#23953#24082#0" expanded="false" />
+            <element signature="e#24112#24165#0" expanded="false" />
+            <element signature="n#!!block;n#blogPage#0" expanded="false" />
+            <element signature="n#!!block;n#deleteBlog#0" expanded="false" />
+            <element signature="e#24345#24728#0" expanded="false" />
+            <element signature="e#24362#24720#0" expanded="false" />
+            <element signature="e#24497#24627#0" expanded="false" />
+            <element signature="e#24657#24710#0" expanded="false" />
+            <element signature="n#!!block;n#switchUserStatus#0" expanded="false" />
+            <element signature="e#24804#25229#0" expanded="false" />
+            <element signature="e#24821#25221#0" expanded="false" />
+            <element signature="e#24998#25128#0" expanded="false" />
+            <element signature="e#25158#25211#0" expanded="false" />
+            <element signature="n#!!block;n#deleteUser#0" expanded="false" />
+            <element signature="e#25306#25689#0" expanded="false" />
+            <element signature="e#25323#25681#0" expanded="false" />
+            <element signature="e#25458#25588#0" expanded="false" />
+            <element signature="e#25618#25671#0" expanded="false" />
+            <element signature="n#!!block;n#downloadFile#0" expanded="false" />
+            <element signature="n#!!block;n#deleteFile#0" expanded="false" />
+            <element signature="e#25850#26233#0" expanded="false" />
+            <element signature="e#25867#26225#0" expanded="false" />
+            <element signature="e#26002#26132#0" expanded="false" />
+            <element signature="e#26162#26215#0" expanded="false" />
+            <element signature="n#!!block;n#switchFeedbackStatus#0" expanded="false" />
+            <element signature="e#26317#26758#0" expanded="false" />
+            <element signature="e#26334#26750#0" expanded="false" />
+            <element signature="e#26523#26657#0" expanded="false" />
+            <element signature="e#26687#26740#0" expanded="false" />
+            <element signature="n#!!block;n#deleteFeedback#0" expanded="false" />
+            <element signature="e#26847#27246#0" expanded="false" />
+            <element signature="e#26864#27238#0" expanded="false" />
+            <element signature="e#27011#27145#0" expanded="false" />
+            <element signature="e#27175#27228#0" expanded="false" />
           </folding>
         </state>
       </provider>
