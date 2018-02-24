@@ -12,8 +12,9 @@
 	<body>
 		<h3>系统简介</h3>
 		<div id="introduce">
-			<p>&nbsp;&nbsp;&nbsp;&nbsp;本系统是基于Java EE的Idea博客系统，Idea意为“想法”，本系统旨在提供一个专门的、简洁的轻量级技术交流分享平台，供用户随时随地将自己好的想法发表为博客，并与其他用户讨论，达到相互学习，共同提高的目的。
-			这是本人毕业设计的选题。主要技术：前端HTML5+CSS3+JavaScript，后台SSM(SpringMVC+Spring+MyBatis)框架，服务器Tomcat，数据库MySQL。</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;本系统是基于Java EE的Idea博客系统，Idea意为“想法”，本系统旨在提供一个专门的、简洁的轻量级技术交流分享平台，供用户随时随地将自己好的想法发表为博客，并与其他用户讨论，达到相互学习，共同提高的目的。</p>
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;这是本人毕业设计的选题。主要技术：前端HTML5+CSS3+JavaScript，后台SSM(SpringMVC+Spring+MyBatis)框架，服务器Tomcat，数据库MySQL。
+			前端框架：bootstrap（bootstrap-table/bootstrap-fileinput），编辑器插件：UEditor。</p>
 			<p>&nbsp;&nbsp;&nbsp;&nbsp;如果您有好的意见或建议，欢迎反馈。感谢您的支持！</p>
 		</div>
 		<h3>意见反馈</h3>

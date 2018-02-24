@@ -12,18 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3f2b770-4fab-4657-86ec-db1079ce681e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/dao/IFeedbackDao.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/dao/IFeedbackDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/model/Feedback.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/model/Feedback.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/help_about.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/help_about.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/css/follow_collect.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/follow_collect.css" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/follow_collect.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/follow_collect.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/home.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/notice.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/notice.js" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,7 +31,7 @@
     <SUITE FILE_PATH="coverage/IdeaBlog$IUserDaoTest_testInsertUser.coverage" NAME="IUserDaoTest.testInsertUser Coverage Results" MODIFIED="1517135890085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ideablog.dao.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/IdeaBlog$Tomcat_8_0_48.coverage" NAME="Tomcat 8.0.48 Coverage Results" MODIFIED="1519448259820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/IdeaBlog$Tomcat_8_0_48.coverage" NAME="Tomcat 8.0.48 Coverage Results" MODIFIED="1519451549698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/IdeaBlog$IUserDaoTest_testTime.coverage" NAME="IUserDaoTest.testTime Coverage Results" MODIFIED="1517145424053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ideablog.dao.*</FILTER>
     </SUITE>
@@ -72,18 +62,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FeedbackServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="method#addFeedback#0;class#FeedbackServiceImpl#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SystemController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -94,169 +72,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp">
+      <file leaf-file-name="help_about.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/help_about.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+            <state relative-caret-position="242">
+              <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="system.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/js/system.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="668" column="1" lean-forward="true" selection-start-line="668" selection-start-column="1" selection-end-line="668" selection-end-column="1" />
-              <folding>
-                <element signature="e#29#23728#0" expanded="false" />
-                <element signature="e#49#98#0" expanded="false" />
-                <element signature="e#141#4395#0" expanded="false" />
-                <element signature="e#471#4388#0" expanded="false" />
-                <element signature="e#1810#4164#0" expanded="false" />
-                <element signature="e#1828#2080#0" expanded="false" />
-                <element signature="e#2009#2016#0" expanded="false" />
-                <element signature="e#2098#2263#0" expanded="false" />
-                <element signature="e#2281#2447#0" expanded="false" />
-                <element signature="e#2465#2903#0" expanded="false" />
-                <element signature="e#2672#2885#0" expanded="false" />
-                <element signature="e#2757#2826#0" expanded="false" />
-                <element signature="e#2921#3084#0" expanded="false" />
-                <element signature="e#3102#3270#0" expanded="false" />
-                <element signature="e#3288#3452#0" expanded="false" />
-                <element signature="e#3454#3823#0" expanded="false" />
-                <element signature="e#3663#3805#0" expanded="false" />
-                <element signature="e#3825#4150#0" expanded="false" />
-                <element signature="e#3995#4132#0" expanded="false" />
-                <element signature="e#4205#4273#0" expanded="false" />
-                <element signature="e#4312#4378#0" expanded="false" />
-                <element signature="e#4440#9824#0" expanded="false" />
-                <element signature="e#4770#9817#0" expanded="false" />
-                <element signature="e#4912#4921#0" expanded="false" />
-                <element signature="e#5295#5301#0" expanded="false" />
-                <element signature="e#5728#5767#0" expanded="false" />
-                <element signature="e#6027#6038#0" expanded="false" />
-                <element signature="e#6398#9593#0" expanded="false" />
-                <element signature="e#6416#6420#0" expanded="false" />
-                <element signature="e#6556#6808#0" expanded="false" />
-                <element signature="e#6737#6744#0" expanded="false" />
-                <element signature="e#6826#6991#0" expanded="false" />
-                <element signature="e#7009#7175#0" expanded="false" />
-                <element signature="e#7193#7355#0" expanded="false" />
-                <element signature="e#7357#7517#0" expanded="false" />
-                <element signature="e#7535#7539#0" expanded="false" />
-                <element signature="e#7735#7897#0" expanded="false" />
-                <element signature="e#7899#8064#0" expanded="false" />
-                <element signature="e#8066#8437#0" expanded="false" />
-                <element signature="e#8277#8419#0" expanded="false" />
-                <element signature="e#8439#9110#0" expanded="false" />
-                <element signature="e#8680#9092#0" expanded="false" />
-                <element signature="e#8774#8894#0" expanded="false" />
-                <element signature="e#8916#9033#0" expanded="false" />
-                <element signature="e#9112#9579#0" expanded="false" />
-                <element signature="e#9332#9561#0" expanded="false" />
-                <element signature="e#9634#9702#0" expanded="false" />
-                <element signature="e#9741#9807#0" expanded="false" />
-                <element signature="e#9866#14684#0" expanded="false" />
-                <element signature="e#10196#14677#0" expanded="false" />
-                <element signature="e#11536#14453#0" expanded="false" />
-                <element signature="e#11554#11806#0" expanded="false" />
-                <element signature="e#11735#11742#0" expanded="false" />
-                <element signature="e#11824#11990#0" expanded="false" />
-                <element signature="e#12008#12535#0" expanded="false" />
-                <element signature="e#12215#12517#0" expanded="false" />
-                <element signature="e#12297#12367#0" expanded="false" />
-                <element signature="e#12389#12458#0" expanded="false" />
-                <element signature="e#12553#12715#0" expanded="false" />
-                <element signature="e#12733#13103#0" expanded="false" />
-                <element signature="e#12943#13085#0" expanded="false" />
-                <element signature="e#13121#13943#0" expanded="false" />
-                <element signature="e#13330#13925#0" expanded="false" />
-                <element signature="e#13415#13866#0" expanded="false" />
-                <element signature="e#13461#13638#0" expanded="false" />
-                <element signature="e#13660#13840#0" expanded="false" />
-                <element signature="e#13961#14439#0" expanded="false" />
-                <element signature="e#14131#14421#0" expanded="false" />
-                <element signature="e#14216#14362#0" expanded="false" />
-                <element signature="e#14494#14562#0" expanded="false" />
-                <element signature="e#14601#14667#0" expanded="false" />
-                <element signature="e#14726#19481#0" expanded="false" />
-                <element signature="e#15056#19474#0" expanded="false" />
-                <element signature="e#16396#19250#0" expanded="false" />
-                <element signature="e#16414#16620#0" expanded="false" />
-                <element signature="e#16638#16804#0" expanded="false" />
-                <element signature="e#16822#16988#0" expanded="false" />
-                <element signature="e#17006#17526#0" expanded="false" />
-                <element signature="e#17216#17508#0" expanded="false" />
-                <element signature="e#17265#17387#0" expanded="false" />
-                <element signature="e#17417#17486#0" expanded="false" />
-                <element signature="e#17544#17709#0" expanded="false" />
-                <element signature="e#17727#18096#0" expanded="false" />
-                <element signature="e#17936#18078#0" expanded="false" />
-                <element signature="e#18114#18747#0" expanded="false" />
-                <element signature="e#18321#18729#0" expanded="false" />
-                <element signature="e#18415#18533#0" expanded="false" />
-                <element signature="e#18555#18670#0" expanded="false" />
-                <element signature="e#18765#19236#0" expanded="false" />
-                <element signature="e#18985#19218#0" expanded="false" />
-                <element signature="e#19291#19359#0" expanded="false" />
-                <element signature="e#19398#19464#0" expanded="false" />
-                <element signature="e#19527#23724#0" expanded="false" />
-                <element signature="e#19857#23717#0" expanded="false" />
-                <element signature="e#21201#23493#0" expanded="false" />
-                <element signature="e#21219#21425#0" expanded="false" />
-                <element signature="e#21443#21608#0" expanded="false" />
-                <element signature="e#21626#21790#0" expanded="false" />
-                <element signature="e#21808#21974#0" expanded="false" />
-                <element signature="e#21992#22359#0" expanded="false" />
-                <element signature="e#22199#22341#0" expanded="false" />
-                <element signature="e#22377#23131#0" expanded="false" />
-                <element signature="e#22584#23113#0" expanded="false" />
-                <element signature="e#22678#22855#0" expanded="false" />
-                <element signature="e#22877#23054#0" expanded="false" />
-                <element signature="e#23149#23479#0" expanded="false" />
-                <element signature="e#23319#23461#0" expanded="false" />
-                <element signature="e#23534#23602#0" expanded="false" />
-                <element signature="e#23641#23707#0" expanded="false" />
-                <element signature="n#!!block;n#deleteLog#0" expanded="false" />
-                <element signature="e#23804#24183#0" expanded="false" />
-                <element signature="e#23821#24175#0" expanded="false" />
-                <element signature="e#23953#24082#0" expanded="false" />
-                <element signature="e#24112#24165#0" expanded="false" />
-                <element signature="n#!!block;n#blogPage#0" expanded="false" />
-                <element signature="n#!!block;n#deleteBlog#0" expanded="false" />
-                <element signature="e#24345#24728#0" expanded="false" />
-                <element signature="e#24362#24720#0" expanded="false" />
-                <element signature="e#24497#24627#0" expanded="false" />
-                <element signature="e#24657#24710#0" expanded="false" />
-                <element signature="n#!!block;n#switchUserStatus#0" expanded="false" />
-                <element signature="e#24804#25229#0" expanded="false" />
-                <element signature="e#24821#25221#0" expanded="false" />
-                <element signature="e#24998#25128#0" expanded="false" />
-                <element signature="e#25158#25211#0" expanded="false" />
-                <element signature="n#!!block;n#deleteUser#0" expanded="false" />
-                <element signature="e#25306#25689#0" expanded="false" />
-                <element signature="e#25323#25681#0" expanded="false" />
-                <element signature="e#25458#25588#0" expanded="false" />
-                <element signature="e#25618#25671#0" expanded="false" />
-                <element signature="n#!!block;n#downloadFile#0" expanded="false" />
-                <element signature="n#!!block;n#deleteFile#0" expanded="false" />
-                <element signature="e#25850#26233#0" expanded="false" />
-                <element signature="e#25867#26225#0" expanded="false" />
-                <element signature="e#26002#26132#0" expanded="false" />
-                <element signature="e#26162#26215#0" expanded="false" />
-                <element signature="n#!!block;n#switchFeedbackStatus#0" expanded="false" />
-                <element signature="e#26317#26758#0" expanded="false" />
-                <element signature="e#26334#26750#0" expanded="false" />
-                <element signature="e#26523#26657#0" expanded="false" />
-                <element signature="e#26687#26740#0" expanded="false" />
-                <element signature="n#!!block;n#deleteFeedback#0" expanded="false" />
-                <element signature="e#26847#27246#0" expanded="false" />
-                <element signature="e#26864#27238#0" expanded="false" />
-                <element signature="e#27011#27145#0" expanded="false" />
-                <element signature="e#27175#27228#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -286,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ideablog/dao/ILogDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/LogDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/ILogService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/impl/LogServiceImpl.java" />
@@ -334,9 +154,10 @@
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/IFeedbackService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/service/impl/FeedbackServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/js/system.js" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/FeedbackDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/help_about.jsp" />
       </list>
     </option>
   </component>
@@ -1027,7 +848,7 @@
       <workItem from="1519028509400" duration="19240000" />
       <workItem from="1519114408506" duration="8208000" />
       <workItem from="1519207687224" duration="5363000" />
-      <workItem from="1519444678387" duration="4248000" />
+      <workItem from="1519444678387" duration="6467000" />
     </task>
     <task id="LOCAL-00001" summary="IDEA first commit.">
       <created>1519114545083</created>
@@ -1043,7 +864,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519134573888</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add feedbackManage.">
+      <created>1519449133265</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519449133265</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1079,7 +907,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="659087000" />
+    <option name="totallyTimeSpent" value="661306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1151,7 +979,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="IDEA first commit." />
     <MESSAGE value="blog square list icons." />
-    <option name="LAST_COMMIT_MESSAGE" value="blog square list icons." />
+    <MESSAGE value="Add feedbackManage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add feedbackManage." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1160,14 +989,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/utils/MyTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/utils/PasswordHash.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/utils/IdeaBlogMail.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1545,22 +1366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="172" column="42" lean-forward="false" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="30" column="25" lean-forward="false" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/BlogDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1763,6 +1568,30 @@
             <element signature="e#27011#27145#0" expanded="false" />
             <element signature="e#27175#27228#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/system.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ideablog/controller/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="172" column="42" lean-forward="false" selection-start-line="172" selection-start-column="42" selection-end-line="172" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/help_about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="17" column="67" lean-forward="false" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>

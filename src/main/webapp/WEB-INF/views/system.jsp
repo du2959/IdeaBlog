@@ -25,9 +25,9 @@
                     <ul class="nav navbar-nav">
                         <li id="sysLogManage"><a href="#">系统日志管理</a></li>
                         <li id="pubBlogManage"><a href="#">公开博客管理</a></li>
-                        <li id="userManage"><a href="#">用户管理</a></li>
                         <li id="fileManage"><a href="#">共享文件管理</a></li>
                         <li id="feedbackManage"><a href="#">反馈管理</a></li>
+                        <li id="userManage"><a href="#">用户管理</a></li>
                     </ul>
                 </div>
             </div>
