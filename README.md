@@ -2,6 +2,8 @@
 
 本科的毕业设计项目。基于SSM框架实现。做得比较简陋。
 
+主要技术：前端HTML5+CSS3+JavaScript，后台SSM(SpringMVC+Spring+MyBatis)框架，服务器Tomcat，数据库MySQL。
+
 ## 权限划分
 - **游客**访问可浏览博客，提交反馈意见，注册为普通用户；
 
