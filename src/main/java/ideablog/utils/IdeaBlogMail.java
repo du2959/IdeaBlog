@@ -10,7 +10,7 @@ import java.util.Properties;
 public class IdeaBlogMail {
 
     private static String myEmailAccount = "ideablog@163.com";
-    private static String myEmailPassword = "ideablog2018";//授权码
+    private static String myEmailPassword = "******";//授权码
     private static String myEmailSMTPHost = "smtp.163.com";
 
     /**
