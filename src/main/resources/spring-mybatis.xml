@@ -25,7 +25,7 @@
         <property name="driverClass" value="com.mysql.jdbc.Driver"/>
         <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/ideablog"/>
         <property name="user" value="root"/>
-        <property name="password" value="root"/>
+        <property name="password" value="******"/>
         <property name="maxPoolSize" value="30"/>
         <property name="minPoolSize" value="10"/>
         <property name="autoCommitOnClose" value="false"/>
